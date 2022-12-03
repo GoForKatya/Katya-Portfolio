@@ -1,0 +1,13 @@
+nav{
+    display: block;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+color: aqua;
+}
+
+a:hover {
+  color: rgb(158, 0, 32);
+}
