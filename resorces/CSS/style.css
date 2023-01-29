@@ -45,6 +45,10 @@ a{
   color: rgb(234, 30, 179);
 }
 
+a:visited{
+  color:rgb(255, 119, 0);
+}
+
 hr{
   height: 80px;
   width:33.33333%;
@@ -80,7 +84,7 @@ hr{
   margin-bottom: 70px;
   margin-right: auto;
  margin-left: auto;
- margin-top: 300px;
+ margin-top: 200px;
  
 }
 
@@ -100,6 +104,10 @@ hr{
               -19px -19px 40px #ffffff;
 }
 
+.footlinks a{
+  width: auto;
+}
+
 li:hover{
   color: rgb(119, 0, 255);
   transition: color 1.5s ease;
@@ -110,6 +118,8 @@ p{
   margin-top: 90px;
   color: rgb(255, 144, 251);
 }
+
+
 /*
 li{
   display: inline;
