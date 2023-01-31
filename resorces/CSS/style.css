@@ -36,28 +36,35 @@ h2{
 }
 
 .nav{
-  
   position: absolute;
   top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 60%;
 }
 
 ul li{
-  
+
   display: inline;
   text-align: center;
 }
+
 
 a{
   display: inline-block;
   font-weight: 900;
   width: 32%;
-  padding: auto;
-  margin: 32px 0;
+  padding: 15px;
+  margin: 20px 0;
   text-decoration: none;
   color: rgb(234, 30, 179);
+}
+
+.welcome {
+  color: rgb(22, 21, 21);
+  margin: 5px;
+  font-size: 14px;
+  text-align: center;
 }
 
 a:visited{
@@ -87,6 +94,7 @@ hr{
 
 .mainblock{
   display: flex;
+  flex-direction:row;
 }
 
 .wrapper{
@@ -113,6 +121,7 @@ hr{
   margin-top: 200px;
   margin-left: 100px;
   margin-right: 50px;
+  overflow: scroll;
 }
 
 
