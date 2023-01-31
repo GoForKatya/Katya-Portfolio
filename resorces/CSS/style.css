@@ -12,7 +12,7 @@ body {
 h1 {
   font-size: 55px;
   margin: 0%;
-  background: -webkit-linear-gradient(rgb(234, 30, 179), rgb(93, 135, 253));
+  background: -webkit-linear-gradient(rgb(255, 31, 195), rgb(28, 89, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -70,7 +70,21 @@ hr{
   margin-left: 66.6666%;
 }
 
+.mainblock{
+  display: flex;
+}
+
+.wrapper{
+  flex: 1;
+  margin-left: 30px;
+  margin-bottom: 70px;
+  margin-top: 200px;
+  height: 400px;
+}
+
+
 .container{
+  flex:2;
   color:  rgb(255, 0, 179) ;
   width: 600px;
   height: 400px;
@@ -80,31 +94,23 @@ hr{
               -19px -19px 40px #ffffff;
   border: none;
   padding: 1.5em 1.9em;
-  text-align: center;
   margin-bottom: 70px;
-  margin-right: auto;
- margin-left: auto;
- margin-top: 200px;
- 
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 30px;
 }
 
-.wrapper{
-  width: 40%;
-  height: 30px;
-  min-width: 0px;
-  position: relative;
-  transform: translate(-50%,-50%);
-  left: 50%;
-  top: 50%;
-}
+
+
 .line{
   width: 100%;
-  padding: 30px 30px 50px;
+  padding: 45px 30px 50px;
   background: linear-gradient(145deg, #ffffff, #f3f3f3);
   border-radius: 50px;
   box-shadow: 0 20px 30px rgba(0,0,0,0.2);
 } 
 
+ 
 .line h2{
   color:rgb(234, 30, 179) ;
   margin-bottom: 50px;
@@ -113,6 +119,7 @@ hr{
   font-size: 33px;
   font-weight: bold;
 }
+
 
 
 .details{
@@ -139,6 +146,7 @@ hr{
 
 
 }
+
 
 .skills:not(:last-child){
   margin-bottom: 30px;
@@ -169,6 +177,7 @@ hr{
       width: 72%;
   }
 }
+
 
 .footlinks li{
   text-transform: uppercase;
