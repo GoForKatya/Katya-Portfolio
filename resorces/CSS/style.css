@@ -107,6 +107,7 @@ hr{
   flex-shrink: 1;
   margin-left: 100px;
   margin-right: 50px;
+  margin-bottom: 60px;;
   height: 400px;
   position: relative;
 }
