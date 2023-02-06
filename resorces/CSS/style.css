@@ -108,6 +108,7 @@ hr{
   margin-left: 100px;
   margin-right: 50px;
   height: 400px;
+  position: relative;
 }
 
 .about{
@@ -126,7 +127,7 @@ hr{
   padding: 1.5em 1.9em;
   margin-left: 100px;
   margin-right: 50px;
-
+  
 }
 
 
