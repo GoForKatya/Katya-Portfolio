@@ -93,22 +93,28 @@ hr{
   margin-left: 100%;
 }
 
-.mainblock{
+.container{
   display: flex;
-  flex-direction:row;
+  flex-wrap: wrap;
+  margin-top: 250px;
 }
 
-.wrapper{
-  flex: 1;
+.skills-sidebar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  flex-shrink: 1;
   margin-left: 100px;
-  margin-bottom: 70px;
-  margin-top: 250px;
+  margin-right: 50px;
   height: 400px;
 }
 
-
-.container{
-  flex:2;
+.about{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 2;
   color:  rgb(255, 0, 179) ;
   width: 600px;
   height: 400px;
@@ -118,11 +124,9 @@ hr{
               -19px -19px 40px #ffffff;
   border: none;
   padding: 1.5em 1.9em;
-  margin-bottom: 70px;
-  margin-top: 250px;
   margin-left: 100px;
   margin-right: 50px;
-  overflow: scroll;
+
 }
 
 
