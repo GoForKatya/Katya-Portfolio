@@ -115,6 +115,7 @@ hr{
 .about{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   flex-grow: 1;
   flex-shrink: 2;
   color:  rgb(255, 0, 179) ;
@@ -128,9 +129,22 @@ hr{
   padding: 1.5em 1.9em;
   margin-left: 100px;
   margin-right: 50px;
-  
+  max-width: fit-content;
 }
 
+.intro{
+display: inline-flex ;
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+.welcome{
+flex-grow: 2;
+overflow:auto;
+flex-shrink: 2;
+min-height: 400px;
+
+}
 
 
 .line{
