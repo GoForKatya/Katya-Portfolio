@@ -142,8 +142,8 @@ flex-shrink: 1;
 flex-grow: 2;
 overflow:auto;
 flex-shrink: 2;
-min-height: 400px;
-
+min-height: 200px;
+max-height: 800px;
 }
 
 
@@ -260,11 +260,10 @@ p{
   #welcome {
     width: 90%;
     max-height: fit-content;
-    overflow: hidden;
   }
   
   #nav {
-    width: 60%;
+    width: 400px;
   }
 
 h1{
