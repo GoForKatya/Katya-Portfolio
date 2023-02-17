@@ -258,6 +258,8 @@ p{
 
 @media only screen and (max-width: 480px) {
   #welcome {
+    width: 90%;
+    max-height: fit-content;
     overflow: hidden;
   }
   
@@ -265,5 +267,7 @@ p{
     width: 60%;
   }
 
-  
+h1{
+  font-size: 25px ;
+}
 }
