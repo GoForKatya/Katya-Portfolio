@@ -107,7 +107,7 @@ hr{
   flex-shrink: 1;
   margin-left: 100px;
   margin-right: 50px;
-  margin-bottom: 60px;;
+  margin-bottom: 20px;;
   height: 400px;
   position: relative;
 }
@@ -129,7 +129,18 @@ hr{
   padding: 1.5em 1.9em;
   margin-left: 100px;
   margin-right: 50px;
+  margin-bottom: 20px;;
   max-width: fit-content;
+}
+
+.guessing-game{
+  border-radius: 50px;
+  background: #ffffff;
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  box-shadow:  5px 5px 10px #c7c7c7,
+             -5px -5px 10px #f9f9f9;
+  border: none;
+  margin: 30px;
 }
 
 .intro{
@@ -146,6 +157,23 @@ min-height: 200px;
 max-height: 800px;
 }
 
+.portf{
+  display: lex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  flex-shrink: 1;
+  height: 300px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  box-shadow:  19px 19px 40px #d0cece,
+              -19px -19px 40px #ffffff;
+  border: none;
+  padding: 1.5em 1.9em;
+  margin-left: 100px;
+  margin-right: 50px;
+  position: relative;
+}
 
 .line{
   width: 100%;
