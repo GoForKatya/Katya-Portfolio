@@ -284,11 +284,39 @@ p{
 }
 
 
-@media only screen and (max-width: 480px) {
-  #welcome {
-    width: 90%;
-    max-height: fit-content;
+@media (max-width: 480px) {
+  h1{
+    font-size: 30px;
   }
+
+  p{
+    font-size: 10px;
+  }
+  .about {
+    min-width: 80%; 
+    margin: 10px;
+    overflow: scroll;
+  }
+
+  .skills{
+    min-width: 80%; 
+margin: 10px;;
+  }
+  #welcome {
+    overflow: hidden;
+  }
+
+  .guessing-game a{
+    font-size: 16px;
+    min-width: 80%; 
+    
+  }
+}
+
+
+/*
+@media only screen and (max-width: 480px) {
+  
   
   #nav {
     width: 400px;
